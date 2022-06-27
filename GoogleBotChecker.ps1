@@ -1,5 +1,10 @@
-﻿# IP to verify 
-$computerIPAddress = "66.249.72.72"
+#
+# This scripts verifies DNS resolution of an IP and reverse DNS the resolved hostname, to confirm it matches the original IP
+# Example for Google DNS
+#
+
+# IP to verify 
+$computerIPAddress = "XXX.XXX.XXX.XXX"
 
 # Following https://developers.google.com/search/docs/advanced/crawling/verifying-googlebot
 # Step 1: Reverse DNS lookup on target IP
